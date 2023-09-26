@@ -11,6 +11,13 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
-    "nuxt": "^3.7.3"
+    "@types/lodash.get": "^4.4.7",
+    "nuxt": "^3.7.3",
+    "sass": "^1.68.0"
+  },
+  "dependencies": {
+    "@contentstack/app-sdk": "^2.0.0",
+    "@picocss/pico": "^1.5.10",
+    "lodash.get": "^4.4.2"
   }
 }

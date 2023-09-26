@@ -422,6 +422,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@contentstack/app-sdk@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "@contentstack/app-sdk@npm:2.0.0"
+  dependencies:
+    loader-utils: ^3.2.1
+    post-robot: ^8.0.31
+    wolfy87-eventemitter: ^5.2.9
+  checksum: 45954ad51d947c58759786dd9a3c84f85bcf73b9f5795df0e4388716caedf94afff2dcbe58a40d2e592ee0fc741d5f880d4c288d98d6e5a37369564d032792fb
+  languageName: node
+  linkType: hard
+
 "@esbuild-kit/cjs-loader@npm:^2.4.2":
   version: 2.4.4
   resolution: "@esbuild-kit/cjs-loader@npm:2.4.4"
@@ -1380,6 +1391,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@picocss/pico@npm:^1.5.10":
+  version: 1.5.10
+  resolution: "@picocss/pico@npm:1.5.10"
+  checksum: 07b2f94507e068c87581039a81c75ef7167dfbcf4b6ed4a9cfe3b8d8039d06ba998f78b93102316f5d90b96d1e907e136cf980f081e77b503ef4dff394f4de83
+  languageName: node
+  linkType: hard
+
 "@pkgjs/parseargs@npm:^0.11.0":
   version: 0.11.0
   resolution: "@pkgjs/parseargs@npm:0.11.0"
@@ -1649,6 +1667,22 @@ __metadata:
   dependencies:
     "@types/node": "*"
   checksum: 89700c8e3c8f2c59c87c8db8e7a070c97a3b30a4a38223aca6b8b817e6f2ca931f5a500e16ecadc1ebcfed2676cc60e073d8f887e621d84420298728ec6fd000
+  languageName: node
+  linkType: hard
+
+"@types/lodash.get@npm:^4.4.7":
+  version: 4.4.7
+  resolution: "@types/lodash.get@npm:4.4.7"
+  dependencies:
+    "@types/lodash": "*"
+  checksum: 0dbf1960606e4707c34e8ffbe97ffaad0e47fc5df7a6e24ea6e4fe5838d2468aa13360f38815c77b06e3c9932631ae15662b4139036a69ee16aeb54827a21405
+  languageName: node
+  linkType: hard
+
+"@types/lodash@npm:*":
+  version: 4.14.198
+  resolution: "@types/lodash@npm:4.14.198"
+  checksum: b290e4480707151bcec738bca40527915defe52a0d8e26c83685c674163a265e1a88cb2ee56b0fb587a89819d0cd5df86ada836aec3e9c2e4bf516e7d348d524
   languageName: node
   linkType: hard
 
@@ -2488,7 +2522,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chokidar@npm:^3.5.1, chokidar@npm:^3.5.3":
+"chokidar@npm:>=3.0.0 <4.0.0, chokidar@npm:^3.5.1, chokidar@npm:^3.5.3":
   version: 3.5.3
   resolution: "chokidar@npm:3.5.3"
   dependencies:
@@ -2749,6 +2783,24 @@ __metadata:
   version: 1.1.1
   resolution: "create-require@npm:1.1.1"
   checksum: a9a1503d4390d8b59ad86f4607de7870b39cad43d929813599a23714831e81c520bddf61bcdd1f8e30f05fd3a2b71ae8538e946eb2786dc65c2bbc520f692eff
+  languageName: node
+  linkType: hard
+
+"cross-domain-safe-weakmap@npm:^1.0.1":
+  version: 1.0.29
+  resolution: "cross-domain-safe-weakmap@npm:1.0.29"
+  dependencies:
+    cross-domain-utils: ^2.0.0
+  checksum: 626c0cd15b19d607d002ba16012aa9e563ec395d9f5efcc4ff2f0e3bfc0f81503ee8ee588e04eaaf2ffabb7e9ba8412946cbd043aa0194c6aaf689593a578e25
+  languageName: node
+  linkType: hard
+
+"cross-domain-utils@npm:^2.0.0":
+  version: 2.0.38
+  resolution: "cross-domain-utils@npm:2.0.38"
+  dependencies:
+    zalgo-promise: ^1.0.11
+  checksum: 72475a5de31ad60d7529cbd36c993c9b0c62b549a7b3932a87146fe3e16b704d3953fc50d3aeaf5d330391328bd6c14efaf359c1826956216edcbf0fa11fe982
   languageName: node
   linkType: hard
 
@@ -4137,6 +4189,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"immutable@npm:^4.0.0":
+  version: 4.3.4
+  resolution: "immutable@npm:4.3.4"
+  checksum: de3edd964c394bab83432429d3fb0b4816b42f56050f2ca913ba520bd3068ec3e504230d0800332d3abc478616e8f55d3787424a90d0952e6aba864524f1afc3
+  languageName: node
+  linkType: hard
+
 "imurmurhash@npm:^0.1.4":
   version: 0.1.4
   resolution: "imurmurhash@npm:0.1.4"
@@ -4593,6 +4652,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"loader-utils@npm:^3.2.1":
+  version: 3.2.1
+  resolution: "loader-utils@npm:3.2.1"
+  checksum: 4e3ea054cdc8be1ab1f1238f49f42fdf0483039eff920fb1d442039f3f0ad4ebd11fb8e584ccdf2cb7e3c56b3d40c1832416e6408a55651b843da288960cc792
+  languageName: node
+  linkType: hard
+
 "local-pkg@npm:^0.4.3":
   version: 0.4.3
   resolution: "local-pkg@npm:0.4.3"
@@ -4611,6 +4677,13 @@ __metadata:
   version: 4.2.0
   resolution: "lodash.defaults@npm:4.2.0"
   checksum: 84923258235592c8886e29de5491946ff8c2ae5c82a7ac5cddd2e3cb697e6fbdfbbb6efcca015795c86eec2bb953a5a2ee4016e3735a3f02720428a40efbb8f1
+  languageName: node
+  linkType: hard
+
+"lodash.get@npm:^4.4.2":
+  version: 4.4.2
+  resolution: "lodash.get@npm:4.4.2"
+  checksum: e403047ddb03181c9d0e92df9556570e2b67e0f0a930fcbbbd779370972368f5568e914f913e93f3b08f6d492abc71e14d4e9b7a18916c31fa04bd2306efe545
   languageName: node
   linkType: hard
 
@@ -5466,8 +5539,13 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "nuxt-app@workspace:."
   dependencies:
+    "@contentstack/app-sdk": ^2.0.0
     "@nuxt/devtools": latest
+    "@picocss/pico": ^1.5.10
+    "@types/lodash.get": ^4.4.7
+    lodash.get: ^4.4.2
     nuxt: ^3.7.3
+    sass: ^1.68.0
   languageName: unknown
   linkType: soft
 
@@ -5818,6 +5896,17 @@ __metadata:
     mlly: ^1.2.0
     pathe: ^1.1.0
   checksum: 4b305c834b912ddcc8a0fe77530c0b0321fe340396f84cbb87aecdbc126606f47f2178f23b8639e71a4870f9631c7217aef52ffed0ae17ea2dbbe7e43d116a6e
+  languageName: node
+  linkType: hard
+
+"post-robot@npm:^8.0.31":
+  version: 8.0.31
+  resolution: "post-robot@npm:8.0.31"
+  dependencies:
+    cross-domain-safe-weakmap: ^1.0.1
+    cross-domain-utils: ^2.0.0
+    zalgo-promise: ^1.0.3
+  checksum: a5031746a3eb433096de431a3ba8cd66f908fa3e5df7caced6ce4b2042d2a2bf7460310726e2be436afab4d09463776085e88687741374254ac84c0683ce7db1
   languageName: node
   linkType: hard
 
@@ -6543,6 +6632,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"sass@npm:^1.68.0":
+  version: 1.68.0
+  resolution: "sass@npm:1.68.0"
+  dependencies:
+    chokidar: ">=3.0.0 <4.0.0"
+    immutable: ^4.0.0
+    source-map-js: ">=0.6.2 <2.0.0"
+  bin:
+    sass: sass.js
+  checksum: 65ccede83c96768beeb8dcaf67957b7c76b12ff1276bfd2849d7be151d46ba1400048a67717e6e5e4969bc75e87348e5530f5f272833f2e60a891c21a33d8ab0
+  languageName: node
+  linkType: hard
+
 "scule@npm:^1.0.0":
   version: 1.0.0
   resolution: "scule@npm:1.0.0"
@@ -6766,7 +6868,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"source-map-js@npm:^1.0.1, source-map-js@npm:^1.0.2":
+"source-map-js@npm:>=0.6.2 <2.0.0, source-map-js@npm:^1.0.1, source-map-js@npm:^1.0.2":
   version: 1.0.2
   resolution: "source-map-js@npm:1.0.2"
   checksum: c049a7fc4deb9a7e9b481ae3d424cc793cb4845daa690bc5a05d428bf41bf231ced49b4cf0c9e77f9d42fdb3d20d6187619fc586605f5eabe995a316da8d377c
@@ -7834,6 +7936,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"wolfy87-eventemitter@npm:^5.2.9":
+  version: 5.2.9
+  resolution: "wolfy87-eventemitter@npm:5.2.9"
+  checksum: 753b03fb876d5704378b08c02926b2040eb5c4c27288bee66b6d9b6e5bf7b194072d36afd33d80bdd94f3c4316dd72064ef1aa3629a514a6df5473187a304622
+  languageName: node
+  linkType: hard
+
 "wrap-ansi-cjs@npm:wrap-ansi@^7.0.0, wrap-ansi@npm:^7.0.0":
   version: 7.0.0
   resolution: "wrap-ansi@npm:7.0.0"
@@ -7934,6 +8043,13 @@ __metadata:
     y18n: ^5.0.5
     yargs-parser: ^21.1.1
   checksum: 73b572e863aa4a8cbef323dd911d79d193b772defd5a51aab0aca2d446655216f5002c42c5306033968193bdbf892a7a4c110b0d77954a7fdf563e653967b56a
+  languageName: node
+  linkType: hard
+
+"zalgo-promise@npm:^1.0.11, zalgo-promise@npm:^1.0.3":
+  version: 1.0.48
+  resolution: "zalgo-promise@npm:1.0.48"
+  checksum: 9ef8c91c4e4a15769e5f2d14918237a1c51a5961d6e979d40f27013f3299052bc175d957e7772e116a83a90bff925f65a7515d99aba429ff3866b0e484529dfc
   languageName: node
   linkType: hard
 
